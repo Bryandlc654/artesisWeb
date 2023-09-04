@@ -1,0 +1,69 @@
+.hero {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.hero-subtitle {
+  background-color: #adadadbe;
+  display: inline-flex;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0 20px 20px 20px;
+}
+
+.hero h1 {
+  line-height: 1.05;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 456px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 565px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+}
+
+.text-hero {
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+.btn-hero {
+  position: relative;
+  top: 20px;
+  padding: 15px 25px;
+  background-color: var(--text-hover);
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: all 0.25s;
+  animation: floatAnimation 3s infinite; /* Aplica la animación */
+}
+
+.slider-text .subheading {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: .8rem;
+}
+
+.btn-hero i {
+  margin-left: 3px;
+}

@@ -1,0 +1,52 @@
+.bg-primary-green {
+  background-color: var(--primary-color);
+}
+
+.icon-service {
+  font-size: 2.7rem;
+  color: var(--text-hover);
+}
+
+.text-primary-green {
+  color: var(--primary-color);
+}
+
+.text-link {
+  color: #686868;
+}
+
+.ml-1 {
+  margin: 0 5px 0 0;
+}
+
+.text-container {
+  font-weight: 500;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  background-color: var(--primary-color);
+}
+
+.swiper-button-prev::after {
+  color: var(--text-hover);
+  font-size: 0.8rem;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 4.25rem;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  background-color: var(--primary-color);
+}
+
+.swiper-button-next::after {
+  color: var(--text-hover);
+  font-size: 0.8rem;
+}

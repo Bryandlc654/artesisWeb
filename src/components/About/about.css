@@ -1,0 +1,18 @@
+.section-about{
+  margin: 6rem auto 4rem;
+}
+
+.icon-mail{
+  font-size: 1.5rem;
+  color: var(--text-hover);
+}
+
+.text-secondary-web{
+  font-size: .9rem;
+  text-decoration: none;
+}
+@media screen and (min-width:456px) {
+  .text-secondary-web{
+    font-size: 1.25rem;
+  }
+}
